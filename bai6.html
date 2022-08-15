@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  
+</body>
+<script>
+    let price = Number(prompt('price'));
+    let commission;
+    if(price > 20000){
+        let commission = price*2/100;
+        alert(commission + "$");
+    }else {
+        let commission = price/100;
+        alert(commission + "$");
+    }
+    
+
+</script>
+</html>
