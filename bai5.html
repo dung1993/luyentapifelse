@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+</body>
+<script>
+    let test = Number(prompt('test'));
+    let midTest = Number(prompt('midText'));
+    let semester = Number(prompt('semester'));
+    let ability = (test + midTest +(semester*semester))/4;
+    if(ability>10 || ability<0){
+        alert('retype');
+    }else if(ability<=10 && ability >9){
+        alert ('excellent');
+    }else if(ability<=9 && ability>8){
+        alert ('great');
+    }else if(ability<=8 && ability>7){
+        alert ('good');
+    }else if(ability<=7 && ability>5){
+        alert ('not bad');
+    }else {
+        alert('bad');
+    }
+</script>
+</html>
